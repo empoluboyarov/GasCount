@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evgeniy.gascount">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity1Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity21Counts"
+            android:label="@string/count1Activity"
+            android:parentActivityName=".Activity1Main" />
+        <activity
+            android:name=".Activity22Favorite"
+            android:label="@string/count2Activity"
+            android:parentActivityName=".Activity1Main" />
+        <activity
+            android:name=".Activity23Converter"
+            android:label="@string/converterActivity"
+            android:parentActivityName=".Activity1Main" />
+        <activity
+            android:name=".Activity24Dewpoint"
+            android:label="@string/dewpointActivity"
+            android:parentActivityName=".Activity1Main" />
+        <activity
+            android:name=".Activity25Methods"
+            android:label="@string/methodsActivity"
+            android:parentActivityName=".Activity1Main" />
+        <activity
+            android:name=".Activity30Method"
+            android:parentActivityName=".Activity25Methods" />
+        <activity android:name=".ActivityCountStockGas"
+            android:label="Расчет запаса газа в газопроводe "
+            android:parentActivityName=".Activity21Counts"/>
+        <activity android:name=".ActivityCountCompressibilityFactor"
+            android:label="Расчет коэффициента сжимаемости"
+            android:parentActivityName=".Activity21Counts"/>
+        <activity android:name=".ActivityCountRelativeDensity"
+            android:label="Расчет относительной плотности"
+            android:parentActivityName=".Activity21Counts"/>
+    </application>
+
+</manifest>

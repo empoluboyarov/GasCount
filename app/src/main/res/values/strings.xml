@@ -1,0 +1,70 @@
+<resources>
+
+
+    <string name="title">Расчет запаса газа в участке</string>
+    <string name="title1">Параметры газа:</string>
+    <string name="title2">Абс. плотность газа, кг/м.куб</string>
+    <string name="title3">Изб. давление, кгс/см.кв</string>
+    <string name="title4">Температура газа, по Цельсию</string>
+    <string name="title5">Параметры участка МГ</string>
+    <string name="title6">Длина участка МГ, м</string>
+    <string name="title7">Внутренний диаметр трубы, мм</string>
+    <string name="title8">Давление приведения - 760 мм.рт.ст.</string>
+    <string name="title9">Давление приведения - 760 мм.рт.ст.\nTемпература приведения - 20 гр.</string>
+    <string name="title10">Рассчитать запас газа</string>
+    <string name="supply"></string>
+
+
+
+
+
+
+
+    <string name="app_name">GasCount</string>
+    <string name="gascount_logo"></string>
+    <string name="count1Activity">Расчеты</string>
+    <string name="count2Activity">Избранное</string>
+    <string name="converterActivity">Конвертер давления</string>
+    <string name="dewpointActivity">Калькулятор точки росы</string>
+    <string name="methodsActivity">Методики расчета</string>
+
+    <string name="favorite">Добавить в избранное</string>
+    <string name="favorites">Избранные методы</string>
+
+    <string-array name="main_list">
+        <item>Расчеты</item>
+        <item>Избранное</item>
+        <item>Конвертер давления</item>
+        <item>Точка росы</item>
+        <item>Методики расчета</item>
+    </string-array>
+<!-- массив для размещения на активности РАСЧЕТЫ -->
+    <string-array name="counts_list">
+        <item>Запас газа в газопроводе</item>
+        <item>Относительная плотность газа</item>
+        <item>Коэффициент сжимаемости природного газа</item>
+    </string-array>
+
+    <!-- //данные для конвертера давления-->
+    <string name="converter1">Введите исходное значение</string>
+    <string name="converter2">Конечная еденица измерения</string>
+    <string name="converter3">КОНВЕРТИРОВАТЬ</string>
+    <string name="converter4">Сконвертируемое значение: </string>
+    <string name="converter5"></string>
+
+    <string-array name="spinner_converter">
+        <item>Бар (bar)</item>
+        <item>Мегапаскаль (МПа)</item>
+        <item>Физическая атмосфера (атм.)</item>
+        <item>Миллиметр ртутного столба (мм рт. ст.)</item>
+        <item>Килограмм силы на квадратный сантиметр (кгс/см.кв)</item>
+    </string-array>
+
+    <string name="conv_radio1">Бар (bar)</string>
+    <string name="conv_radio2">Мегапаскаль (МПа)</string>
+    <string name="conv_radio3">Физическая атмосфера (атм.)</string>
+    <string name="conv_radio4">Миллиметр ртутного столба (мм рт. ст.)</string>
+    <string name="conv_radio5">Килограмм силы на квадратный сантиметр (кгс/см.кв)</string>
+
+
+</resources>
